@@ -1,0 +1,4 @@
+data_root: /absolute/path/to/agent-worklog-data
+sync_mode: offline
+aggregator_host_id: one-controlled-host
+

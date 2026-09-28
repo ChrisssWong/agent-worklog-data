@@ -1,0 +1,22 @@
+schema_version: "1.0"
+timezone: Asia/Shanghai
+aggregator_id: codex
+agents:
+  - agent_id: chatgpt
+    required: false
+    enabled_from: 2026-09-28
+  - agent_id: codex
+    required: true
+    enabled_from: 2026-09-28
+  - agent_id: claude-code
+    required: false
+    enabled_from: 2026-09-28
+  - agent_id: deepseek
+    required: false
+    enabled_from: 2026-09-28
+privacy:
+  excluded_terms: []
+schedule:
+  provisional_time: "23:00"
+  close_time: "00:15"
+
